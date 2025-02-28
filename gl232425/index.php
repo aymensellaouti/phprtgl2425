@@ -4,6 +4,7 @@
         "aymen",
         "skander"
     ];
+    $user = ['name' => "sellaouti", "firstnam" => "aymen"];
     var_dump($GLOBALS);
 ?>
 <!DOCTYPE html>
@@ -19,6 +20,11 @@
         <?php for ($i = 0; $i < count($names); $i++) { ?>
            <li><?php echo $names[$i] ?></li>
         <?php } ?>
+        <ul>    
+            <?php foreach($user as $key => $value): ?>
+                <li><?php echo "$key : $value" ?></li>
+            <?php endforeach ?>
+        </ul>
     </ol>
 </body>
 </html>
