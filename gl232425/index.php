@@ -1,5 +1,5 @@
 <?php
-include_once 'class/autoloader.php';
+include_once 'autoloader.php';
 /* include_once 'class/Person.php'; */
 $section = "GL223";
 $names = [
