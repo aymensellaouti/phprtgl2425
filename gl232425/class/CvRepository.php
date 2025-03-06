@@ -6,4 +6,6 @@ class CvRepository extends Repositroy
     {
         parent::__construct('cv');
     }
+
+    public function getStatsCvs() {}
 }
